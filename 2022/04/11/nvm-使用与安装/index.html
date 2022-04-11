@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <meta charset="UTF-8">
+    <title>nvm 使用与安装 - Elsie&#39;s growth footprints</title>
+    <link rel="shortcut icon" href="/static/img/icon.png">
+    <link rel="icon" href="/static/img/icon.png" sizes="192x192"/>
+    
+<link rel="stylesheet" href="/static/kico.css">
+<link rel="stylesheet" href="/static/hingle.css">
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+    <meta property="og:site_name" content="Elsie&#39;s growth footprints">
+    <meta property="og:title" content="nvm 使用与安装"/>
+    
+    <style>body:before{ content: ''; background-image: url(https://api.paugram.com/wallpaper?source=gh) }</style>
+    
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+  <body>
+    <header>
+    <div class="head-title">
+        <h4>Elsie&#39;s growth footprints</h4>
+    </div>
+    <div class="head-action">
+        <div class="toggle-btn"></div>
+        <div class="light-btn"></div>
+        <div class="search-btn"></div>
+    </div>
+    <form class="head-search" method="post">
+        <input type="text" name="s" placeholder="搜索什么？">
+    </form>
+    <nav class="head-menu">
+        <a href="/">首页</a>
+        <div class="has-child">
+            <a>分类</a>
+            <div class="sub-menu">
+                <a class="category-link" href="/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/">前端学习</a><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE%E7%B1%BB/">工具配置类</a><a class="category-link" href="/categories/%E8%A7%84%E8%8C%83%E7%B1%BB/">规范类</a>
+            </div>
+        </div>
+        
+    </nav>
+</header>
+
+    <main>
+    <div class="wrap min">
+        <section class="post-title">
+            <h2>nvm 使用与安装</h2>
+            <div class="post-meta">
+                <time class="date">2022.04.11</time>
+            
+                <span class="category"><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE%E7%B1%BB/">工具配置类</a></span>
+            
+            </div>
+        </section>
+        <article class="post-content">
+        
+            <p>github：<a target="_blank" rel="noopener" href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></p>
+<h5 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">$ nvm use <span class="number">16</span></span><br><span class="line">Now using node v16<span class="number">.9</span><span class="number">.1</span> (npm v7<span class="number">.21</span><span class="number">.1</span>)</span><br><span class="line"> </span><br><span class="line">$ node -v</span><br><span class="line">v16<span class="number">.9</span><span class="number">.1</span></span><br><span class="line"> </span><br><span class="line">$ nvm use <span class="number">14</span></span><br><span class="line">Now using node v14<span class="number">.18</span><span class="number">.0</span> (npm v6<span class="number">.14</span><span class="number">.15</span>)</span><br><span class="line"> </span><br><span class="line">$ node -v</span><br><span class="line">v14<span class="number">.18</span><span class="number">.0</span></span><br><span class="line"> </span><br><span class="line">$ nvm install <span class="number">12</span></span><br><span class="line">Now using node v12<span class="number">.22</span><span class="number">.6</span> (npm v6<span class="number">.14</span><span class="number">.5</span>)</span><br><span class="line"> </span><br><span class="line">$ node -v</span><br><span class="line">v12<span class="number">.22</span><span class="number">.6</span></span><br></pre></td></tr></table></figure>
+<h5 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash</span><br><span class="line"><span class="meta">#</span><span class="bash"> 或者</span></span><br><span class="line">wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash</span><br></pre></td></tr></table></figure>
+<h5 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装最新稳定版 node</span></span><br><span class="line">nvm install stable</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 安装指定版本，例：nvm install 12.1</span></span><br><span class="line">nvm install &lt;version&gt;</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 删除已安装的指定版本</span></span><br><span class="line">nvm uninstall &lt;version&gt;</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 切换到指定版本</span></span><br><span class="line">nvm use &lt;version&gt;</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 查看所有已安装的版本</span></span><br><span class="line">nvm ls</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 列出所有远程服务器的版本</span></span><br><span class="line">nvm ls-remote</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 显示当前的版本</span></span><br><span class="line">nvm current</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 给制定版本号添加别名</span></span><br><span class="line">nvm alias &lt;name&gt; &lt;version&gt;</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 删除别名</span></span><br><span class="line">nvm unalias &lt;name&gt;</span><br><span class="line"><span class="meta"> </span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 在当前版本 node 环境下，重新全局安装指定版本号的 npm 包</span></span><br><span class="line">nvm reinstall-packages &lt;version&gt;</span><br></pre></td></tr></table></figure>
+        </article>
+        <section class="post-near">
+            <ul>
+                
+                    <li>上一篇: <a href="/2022/04/11/iTerm2%E5%AE%89%E8%A3%85%E5%92%8Coh-my-zsh%E7%9A%84%E5%AE%89%E8%A3%85/">iTerm2安装和oh-my-zsh的安装</a></li>
+                
+                
+                    <li>下一篇: <a href="/2022/04/11/coding-specification/">前端编码规范</a></li>
+                
+            </ul>
+        </section>
+        
+    
+        <section class="post-author">
+        
+            <figure class="author-avatar">
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202105%2F05%2F20210505085929_10b4b.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1644049706&t=869beff37204aab2d9357d3885fd4d70" alt="Elsie" />
+            </figure>
+        
+            <div class="author-info">
+                <h4>Elsie</h4>
+                <p>一个努力脱离前端新手村的小菜鸡～</p>
+            </div>
+        </section>
+    
+    </div>
+</main>
+
+    <footer>
+    <div class="buttons">
+        <a class="to-top" href="#"></a>
+    </div>
+    <div class="wrap min">
+        <section class="widget">
+            <div class="row">
+                <div class="col-m-4">
+                    <h3 class="title-recent">最新文章：</h3>
+                    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2022/04/11/iTerm2%E5%AE%89%E8%A3%85%E5%92%8Coh-my-zsh%E7%9A%84%E5%AE%89%E8%A3%85/">iTerm2安装和oh-my-zsh的安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/04/11/nvm-%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%AE%89%E8%A3%85/">nvm 使用与安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/04/11/coding-specification/">前端编码规范</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/04/11/git-store/">前端必学的20个github仓库</a></li><li class="post-list-item"><a class="post-list-link" href="/2022/01/06/hello-world/">如何使用hexo</a></li></ul>
+                </div>
+                <div class="col-m-4">
+                    <h3 class="title-date">时光机：</h3>
+                    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/04/">April 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/01/">January 2022</a></li></ul>
+                </div>
+                <div class="col-m-4">
+                    <h3 class="title-tags">标签云：</h3>
+                    <a href="/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">前端学习</a>
+                </div>
+            </div>
+        </section>
+        <section class="sub-footer">
+            <p>© 2022 <a href="/">Elsie&#39;s growth footprints</a>. All Rights Reserved. Theme By <a href="https://github.com/Dreamer-Paul/Hingle" target="_blank" rel="nofollow">Hingle</a>.</p>
+        </section>
+    </div>
+</footer>
+
+
+<script src="/static/kico.js"></script>
+<script src="/static/hingle.js"></script>
+
+
+<script>var hingle = new Paul_Hingle({"copyright":true,"night":true});</script>
+
+  </body>
+</html>
